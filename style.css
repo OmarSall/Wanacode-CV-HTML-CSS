@@ -1,10 +1,71 @@
-html, body {
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    background: #f4f4f4;
- }
+    padding: 0;
+    background: #ffffff;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background: rgb(220, 217, 213);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 35%;
+    background: #151b22;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.header1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #c4cfd7;
+}
+.header2 {
+    font-size: 2.5em;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    margin: 5px 0; /*Top/bottom margin  lef/right margin*/
+}
+
+.header3 {
+    background: #66859c;
+    padding: 0.1%;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 1em;
+    background: #7e93a3;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin: 1% 0;
+    margin-bottom: 5%;
+}
+
+.list {
+    list-style: none;
+    font-size: 1em;
+    background: #7e93a3;
+    border-radius: 10px;
+    padding: 0.8%;
+    margin: 0.9% 0;
+}
+
+.content {
+    width: 65%;
+    padding: 20px;
+}
